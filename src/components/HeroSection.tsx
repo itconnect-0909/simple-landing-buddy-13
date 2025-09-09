@@ -7,17 +7,7 @@ import rocketIcon from "@/assets/rocket-icon.png";
 
 const HeroSection = () => {
   return (
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-210YNLH7C3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-210YNLH7C3');
-</script>
-
+    
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-cosmic">
       {/* Multiple Background layers */}
       <div className="absolute inset-0 bg-gradient-hero opacity-20"></div>
